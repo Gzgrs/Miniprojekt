@@ -15,7 +15,7 @@ body {
 
 .splash {
   border: solid 4px green;
-  position: relative;  
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .page-top {
-  position: absolute; 
+  position: absolute;
   border: solid 5px black;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ body {
 }
 
 .nice {
-  font-size: 60px; 
+  font-size: 60px;
   margin: 0;
 }
 
@@ -56,6 +56,6 @@ body {
   width: 80%;
 }
 
-navigation {
- display: contents; 
+.navbar {
+ display: contents;
 }
