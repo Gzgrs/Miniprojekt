@@ -187,3 +187,21 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+/* portfolio */
+
+.col {
+  border: 1px solid;
+  
+
+}
+
+.portfolio-card {
+  border: solid 2px red;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
