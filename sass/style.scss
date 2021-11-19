@@ -51,13 +51,13 @@ body {
   margin-top: 94px;
 
   a {
-  background-color: #FBD300;
-  color: white;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 6%;
-  margin-top: 57px;
+    background-color: #FBD300;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 6%;
+    margin-top: 57px;
   }
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .navbar {
- display: contents;
+  display: contents;
 }
 
 
@@ -173,17 +173,17 @@ body {
 
 }
 
-.fa-duty-icons {
 
+.fa-duty-icons {
   font-size: 40px;
   color: $color-golden;
   border: 4px solid;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* portfolio */
