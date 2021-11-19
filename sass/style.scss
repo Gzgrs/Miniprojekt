@@ -190,9 +190,15 @@ ul {
 
 /* portfolio */
 
+
 .col {
-  border: 1px solid;
-  
+  border: 2px solid;
+  width: 33%;
+    img {
+      width: 100%;
+
+    }
+
 
 }
 
@@ -204,4 +210,22 @@ ul {
   align-items: center;
   flex-direction: column;
 
+}
+
+.portfolio-title {
+  display: flex;
+  border: solid red 2px;
+  flex-direction: column;
+  align-items: center;
+    h1 {
+      margin-bottom: 0;
+      font-size: 45px;
+
+    }
+
+    p {
+
+      margin-top: 0;
+      margin-bottom: 80px;
+    }
 }
