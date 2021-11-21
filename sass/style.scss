@@ -72,7 +72,6 @@ body {
 /* navigation */
 
 .nav {
-  border: solid 2px green;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -88,18 +87,15 @@ body {
 
 .navbar {
   display: contents;
-    border: solid 2px brown;
 }
 
 
 .golden {
-  border: solid 2px yellow;
   margin-right: auto;
   font-size: 44px;
 }
 
 .button {
-  border: solid 2px pink;
   padding: 0 20px;
   text-decoration: none;
   color: #F6F6F6;
@@ -202,7 +198,6 @@ body {
 .row {
   height: 400px;
   margin-bottom: 30px;
-  border: solid 3px red;
 
 }
 
@@ -210,12 +205,8 @@ body {
 
 .col {
   width: 33%;
-  border: solid 3px green;
     img {
-      border: solid 3px brown;
-
       width: 100%;
-
       object-fit: cover;
       height: 75%;
 
@@ -225,7 +216,6 @@ body {
 }
 
 .portfolio-card {
-  border: solid 3px pink;
   background-color: #F8F9FB;
   display: flex;
   justify-content: center;
@@ -326,7 +316,7 @@ body {
 @media (max-width: 767px) {
 
   .splash {
-    width: 515px;
+    width: 171%;
 
   }
   .welcome {
@@ -356,6 +346,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 171%;
 
   }
 
@@ -363,7 +354,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 172px;
+
 
   }
 
@@ -373,7 +364,8 @@ body {
   }
 
   .duty-container {
-      padding-left: 140px;
+    display: flex;
+    flex-direction: column;
 
   }
 
@@ -381,13 +373,58 @@ body {
       width: auto;
 
     }
+    .duty-icons {
+
+        .fas {
+          font-size: 40px;
+
+        }
+        .duty-icons-content {
+          font-size: 24px;
+        }
+        .duty-icons-title {
+          font-size: 40px;
+
+        }
+    }
+
+
+  .portfolio-title {
+    width: 100%;
+    i {
+      font-size: 30px;
+    }
+    p {
+      text-align: center;
+
+    }
+}
+
+  .portfolio {
+    width: 171%;
+
+  }
+
+
+  .portfolio-card {
+    h4 {
+      display: flex;
+      font-size: 41px;
+      margin-top: 0;
+    }
+    i {
+      font-size: 35px;
+
+    }
+  }
 
   .row {
-    height: 1400px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
+    width: 106%;
 
 
   }
@@ -404,5 +441,38 @@ body {
       }
   }
 
+  .footer {
+    width: 171%;
+    display: flex
+
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .footer {
+    display: flex;
+    height: 150px;
+    display: flex;
+    height: 150px;
+  }
+
+  .copyright {
+    display: flex;
+    height: 30%;
+    width: 36%;
+    left: -137px;
+
+  }
+
+}
+
+ @media (min-width: 992px) and (max-width: 1024px) {
+  .copyright {
+    margin-left: 106px;
+    display: flex;
+
+  }
 
 }
