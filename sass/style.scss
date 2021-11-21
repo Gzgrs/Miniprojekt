@@ -72,6 +72,7 @@ body {
 /* navigation */
 
 .nav {
+  border: solid 2px green;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -87,15 +88,18 @@ body {
 
 .navbar {
   display: contents;
+    border: solid 2px brown;
 }
 
 
 .golden {
+  border: solid 2px yellow;
   margin-right: auto;
   font-size: 44px;
 }
 
 .button {
+  border: solid 2px pink;
   padding: 0 20px;
   text-decoration: none;
   color: #F6F6F6;
@@ -198,13 +202,20 @@ body {
 .row {
   height: 400px;
   margin-bottom: 30px;
+  border: solid 3px red;
 
 }
 
+
+
 .col {
   width: 33%;
+  border: solid 3px green;
     img {
+      border: solid 3px brown;
+
       width: 100%;
+
       object-fit: cover;
       height: 75%;
 
@@ -214,6 +225,7 @@ body {
 }
 
 .portfolio-card {
+  border: solid 3px pink;
   background-color: #F8F9FB;
   display: flex;
   justify-content: center;
@@ -306,5 +318,91 @@ body {
   align-items: center;
   position: absolute;
   margin-left: 20%;
+
+}
+
+/* media */
+
+@media (max-width: 767px) {
+
+  .splash {
+    width: 515px;
+
+  }
+  .welcome {
+    font-size: 35px;
+
+  }
+  .nice {
+    font-size: 25px;
+  }
+
+  .nav {
+      font-size: 29px;
+      flex-wrap: wrap;
+  }
+
+  .golden {
+    font-size: 32px;
+
+  }
+
+  .accesories {
+    object-fit: cover;
+
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 172px;
+
+  }
+
+  .services-title-content {
+    width: max-content;
+
+  }
+
+  .duty-container {
+      padding-left: 140px;
+
+  }
+
+    .duty {
+      width: auto;
+
+    }
+
+  .row {
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+
+
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+      img {
+        object-fit: cover;
+        display: flex;
+
+
+      }
+  }
+
 
 }
